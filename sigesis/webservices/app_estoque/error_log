@@ -1,3 +1,0 @@
-[27-Feb-2024 14:38:26 America/Argentina/Buenos_Aires] PHP Warning:  array_merge(): Expected parameter 2 to be an array, null given in /home/sigesiscom/public_html/desenvolvimento/webservices/app_estoque/updateEstoqueProdutosSistema.php on line 39
-[27-Feb-2024 14:38:26 America/Argentina/Buenos_Aires] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home/sigesiscom/public_html/desenvolvimento/webservices/app_estoque/updateEstoqueProdutosSistema.php on line 21
-[27-Feb-2024 14:38:26 America/Argentina/Buenos_Aires] PHP Warning:  http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given in /home/sigesiscom/public_html/desenvolvimento/webservices/app_estoque/updateEstoqueProdutosSistema.php on line 25

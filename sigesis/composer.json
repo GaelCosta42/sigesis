@@ -1,0 +1,15 @@
+{
+    "require": {
+        "mpdf/mpdf": "*",
+        "endroid/qr-code": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Database\\Migrations\\": "database/migrations/",
+            "PSP\\sicoob\\app\\": "PSP/sicoob/app/"
+        }
+    },
+    "scripts": {
+        "migration": "./vendor/bin/phinx"
+    }
+}

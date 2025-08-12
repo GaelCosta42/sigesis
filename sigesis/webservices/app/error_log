@@ -1,0 +1,98 @@
+[05-May-2022 08:30:35 America/Argentina/Buenos_Aires] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesiscom/public_html/sigen1/webservices/app/usuario_app.php on line 52
+[05-May-2022 16:21:40 America/Argentina/Buenos_Aires] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesiscom/public_html/sigen1/webservices/app/usuario_app.php on line 52
+[05-May-2022 16:22:37 America/Argentina/Buenos_Aires] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesiscom/public_html/sigen1/webservices/app/usuario_app.php on line 52
+[05-May-2022 16:22:45 America/Argentina/Buenos_Aires] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesiscom/public_html/sigen1/webservices/app/usuario_app.php on line 52
+[12-Jul-2022 09:28:34 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/sigesiscom/public_html/testen1/webservices/app/vendas_crediario.php:300
+Stack trace:
+#0 {main}
+  thrown in /home/sigesiscom/public_html/testen1/webservices/app/vendas_crediario.php on line 300
+[12-Jul-2022 09:30:21 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/sigesiscom/public_html/testen1/webservices/app/vendas_crediario.php:300
+Stack trace:
+#0 {main}
+  thrown in /home/sigesiscom/public_html/testen1/webservices/app/vendas_crediario.php on line 300
+[12-Sep-2023 13:11:21 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/sigesiscom/public_html/desenvolvimento/webservices/app/vendas_crediario.php on line 145
+[12-Sep-2023 13:13:21 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/sigesiscom/public_html/desenvolvimento/webservices/app/vendas_crediario.php on line 145
+[11-Oct-2023 10:08:34 America/Argentina/Buenos_Aires] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesiscom/public_html/desenvolvimento/webservices/app/tabela_preco.php on line 38
+[11-Oct-2023 10:08:56 America/Argentina/Buenos_Aires] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesiscom/public_html/desenvolvimento/webservices/app/tabela_preco.php on line 38
+[11-Oct-2023 10:09:28 America/Argentina/Buenos_Aires] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesiscom/public_html/desenvolvimento/webservices/app/tabela_preco.php on line 38
+[09-Jul-2024 15:19:51 America/Argentina/Buenos_Aires] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesiscom/public_html/sigesis/webservices/app/usuario_app.php on line 52
+[09-Jul-2024 15:20:15 America/Argentina/Buenos_Aires] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesiscom/public_html/sigesis/webservices/app/usuario_app.php on line 52
+[09-Jul-2024 15:22:52 America/Argentina/Buenos_Aires] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesiscom/public_html/sigesis/webservices/app/usuario_app.php on line 52
+[09-Jul-2024 15:25:37 America/Argentina/Buenos_Aires] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesiscom/public_html/sigesis/webservices/app/usuario_app.php on line 52
+[30-Jul-2024 12:08:48 America/Argentina/Buenos_Aires] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesiscom/public_html/sigesis/webservices/app/usuario_app.php on line 52
+[02-Sep-2024 16:36:11 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/sigesiscom/public_html/sigesis/lib/phpmailer/src/PHPMailer.php:1977
+Stack trace:
+#0 /home/sigesiscom/public_html/sigesis/lib/phpmailer/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 2 Se...', 'O seu c\xC3\xB3digo p...')
+#1 /home/sigesiscom/public_html/sigesis/lib/phpmailer/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/sigesiscom/public_html/sigesis/lib/functions.php(2528): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/sigesiscom/public_html/sigesis/webservices/app/recuperar.php(43): enviarEmail('MIKELLYGUEDES12...', 'sigesis - Recup...', 'O seu c\xC3\xB3digo p...', Object(Database))
+#4 {main}
+  thrown in /home/sigesiscom/public_html/sigesis/lib/phpmailer/src/PHPMailer.php on line 1977
+[02-Sep-2024 16:46:21 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/sigesiscom/public_html/sigesis/lib/phpmailer/src/PHPMailer.php:1977
+Stack trace:
+#0 /home/sigesiscom/public_html/sigesis/lib/phpmailer/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 2 Se...', 'O seu c\xC3\xB3digo p...')
+#1 /home/sigesiscom/public_html/sigesis/lib/phpmailer/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/sigesiscom/public_html/sigesis/lib/functions.php(2528): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/sigesiscom/public_html/sigesis/webservices/app/recuperar.php(43): enviarEmail('MIKELLYGUEDES12...', 'sigesis - Recup...', 'O seu c\xC3\xB3digo p...', Object(Database))
+#4 {main}
+  thrown in /home/sigesiscom/public_html/sigesis/lib/phpmailer/src/PHPMailer.php on line 1977
+[02-Sep-2024 16:48:28 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/sigesiscom/public_html/sigesis/lib/phpmailer/src/PHPMailer.php:1977
+Stack trace:
+#0 /home/sigesiscom/public_html/sigesis/lib/phpmailer/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 2 Se...', 'O seu c\xC3\xB3digo p...')
+#1 /home/sigesiscom/public_html/sigesis/lib/phpmailer/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/sigesiscom/public_html/sigesis/lib/functions.php(2528): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/sigesiscom/public_html/sigesis/webservices/app/recuperar.php(43): enviarEmail('MIKELLYGUEDES12...', 'sigesis - Recup...', 'O seu c\xC3\xB3digo p...', Object(Database))
+#4 {main}
+  thrown in /home/sigesiscom/public_html/sigesis/lib/phpmailer/src/PHPMailer.php on line 1977
+[14-Oct-2024 09:00:26 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Cannot access self:: when no class scope is active in /home/sigesiscom/public_html/sigesis/webservices/app/vendas_crediario.php:294
+Stack trace:
+#0 {main}
+  thrown in /home/sigesiscom/public_html/sigesis/webservices/app/vendas_crediario.php on line 294
+[14-Oct-2024 09:00:35 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Cannot access self:: when no class scope is active in /home/sigesiscom/public_html/sigesis/webservices/app/vendas_crediario.php:294
+Stack trace:
+#0 {main}
+  thrown in /home/sigesiscom/public_html/sigesis/webservices/app/vendas_crediario.php on line 294
+[14-Oct-2024 09:00:58 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Cannot access self:: when no class scope is active in /home/sigesiscom/public_html/sigesis/webservices/app/vendas_crediario.php:294
+Stack trace:
+#0 {main}
+  thrown in /home/sigesiscom/public_html/sigesis/webservices/app/vendas_crediario.php on line 294
+[14-Oct-2024 09:00:59 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Cannot access self:: when no class scope is active in /home/sigesiscom/public_html/sigesis/webservices/app/vendas_crediario.php:294
+Stack trace:
+#0 {main}
+  thrown in /home/sigesiscom/public_html/sigesis/webservices/app/vendas_crediario.php on line 294
+[14-Oct-2024 09:08:18 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Cannot access self:: when no class scope is active in /home/sigesiscom/public_html/sigesis/webservices/app/vendas_crediario.php:294
+Stack trace:
+#0 {main}
+  thrown in /home/sigesiscom/public_html/sigesis/webservices/app/vendas_crediario.php on line 294
+[14-Oct-2024 09:08:28 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Cannot access self:: when no class scope is active in /home/sigesiscom/public_html/sigesis/webservices/app/vendas_crediario.php:294
+Stack trace:
+#0 {main}
+  thrown in /home/sigesiscom/public_html/sigesis/webservices/app/vendas_crediario.php on line 294
+[14-Oct-2024 09:08:35 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Cannot access self:: when no class scope is active in /home/sigesiscom/public_html/sigesis/webservices/app/vendas_crediario.php:294
+Stack trace:
+#0 {main}
+  thrown in /home/sigesiscom/public_html/sigesis/webservices/app/vendas_crediario.php on line 294
+[18-Dec-2024 14:38:49 America/Argentina/Buenos_Aires] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesiscom/public_html/sigesis/webservices/app/usuario_app.php on line 52
+[18-Dec-2024 14:41:07 America/Argentina/Buenos_Aires] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesiscom/public_html/sigesis/webservices/app/usuario_app.php on line 52
+[15-Jan-2025 14:19:42 America/Argentina/Buenos_Aires] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesiscom/public_html/sigesis/webservices/app/usuario_app.php on line 52
+[23-Jan-2025 09:39:39 America/Argentina/Buenos_Aires] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesiscom/public_html/sigesis/webservices/app/usuario_app.php on line 52
+[10-Feb-2025 09:41:11 America/Argentina/Buenos_Aires] PHP Warning:  A non-numeric value encountered in /home/sigesiscom/public_html/sigesis/lib/class_cadastro.php on line 4866
+[10-Feb-2025 09:41:11 America/Argentina/Buenos_Aires] PHP Warning:  A non-numeric value encountered in /home/sigesiscom/public_html/sigesis/lib/class_cadastro.php on line 4866
+[10-Feb-2025 11:43:04 America/Argentina/Buenos_Aires] PHP Warning:  A non-numeric value encountered in /home/sigesiscom/public_html/sigesis/lib/class_cadastro.php on line 4866
+[10-Feb-2025 11:43:04 America/Argentina/Buenos_Aires] PHP Warning:  A non-numeric value encountered in /home/sigesiscom/public_html/sigesis/lib/class_cadastro.php on line 4866
+[10-Feb-2025 11:55:05 America/Argentina/Buenos_Aires] PHP Warning:  A non-numeric value encountered in /home/sigesiscom/public_html/sigesis/lib/class_cadastro.php on line 4866
+[10-Feb-2025 11:55:05 America/Argentina/Buenos_Aires] PHP Warning:  A non-numeric value encountered in /home/sigesiscom/public_html/sigesis/lib/class_cadastro.php on line 4866
+[10-Feb-2025 11:55:10 America/Argentina/Buenos_Aires] PHP Warning:  A non-numeric value encountered in /home/sigesiscom/public_html/sigesis/lib/class_cadastro.php on line 4866
+[10-Feb-2025 11:55:10 America/Argentina/Buenos_Aires] PHP Warning:  A non-numeric value encountered in /home/sigesiscom/public_html/sigesis/lib/class_cadastro.php on line 4866
+[10-Feb-2025 14:21:57 America/Argentina/Buenos_Aires] PHP Warning:  mktime() expects parameter 5 to be int, string given in /home/sigesiscom/public_html/sigesis/lib/functions.php on line 906
+[10-Feb-2025 14:21:57 America/Argentina/Buenos_Aires] PHP Warning:  mktime() expects parameter 5 to be int, string given in /home/sigesiscom/public_html/sigesis/lib/functions.php on line 912
+[10-Feb-2025 14:48:19 America/Argentina/Buenos_Aires] PHP Warning:  mktime() expects parameter 6 to be int, string given in /home/sigesiscom/public_html/sigesis/lib/functions.php on line 906
+[10-Feb-2025 14:48:19 America/Argentina/Buenos_Aires] PHP Warning:  mktime() expects parameter 6 to be int, string given in /home/sigesiscom/public_html/sigesis/lib/functions.php on line 912
+[14-May-2025 22:08:14 America/Argentina/Buenos_Aires] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesiscom/public_html/sigesis/webservices/app/usuario_app.php on line 52
+[14-May-2025 22:09:46 America/Argentina/Buenos_Aires] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesiscom/public_html/sigesis/webservices/app/usuario_app.php on line 52
+[14-May-2025 22:10:18 America/Argentina/Buenos_Aires] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesiscom/public_html/sigesis/webservices/app/usuario_app.php on line 52
+[15-May-2025 15:58:03 America/Argentina/Buenos_Aires] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesiscom/public_html/sigesis/webservices/app/usuario_app.php on line 52
+[26-May-2025 10:55:28 America/Argentina/Buenos_Aires] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesiscom/public_html/sigesis/webservices/app/usuario_app.php on line 52
+[03-Jun-2025 09:13:07 America/Argentina/Buenos_Aires] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesiscom/public_html/sigesis/webservices/app/usuario_app.php on line 52
+[03-Jun-2025 09:16:25 America/Argentina/Buenos_Aires] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesiscom/public_html/sigesis/webservices/app/usuario_app.php on line 52
+[03-Jun-2025 09:16:27 America/Argentina/Buenos_Aires] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesiscom/public_html/sigesis/webservices/app/usuario_app.php on line 52

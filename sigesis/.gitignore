@@ -1,0 +1,17 @@
+.htaccess
+.ftpquota
+.user.ini
+php.ini
+.well-known
+
+.vscode
+.idea
+
+node_modules/
+vendor/
+composer.lock
+
+uploads/*
+lib/config.ini.php
+
+tcpdf-novo/

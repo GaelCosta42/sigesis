@@ -6,6 +6,7 @@
   if (!defined("_VALID_PHP"))
       die('Acesso direto a esta classe não é permitido.');
 ?>
+
 <?php
 	date_default_timezone_set("America/Argentina/Buenos_Aires");
 	set_time_limit(0);
@@ -169,6 +170,11 @@
   Registry::set('OrdemServico',new OrdemServico());
   $ordem_servico = Registry::get("OrdemServico");
 
+  //Load Plug4Market ProdutosCanalVenda
+  require_once(BASEPATH . "lib/plug4market/Service/ProdutosCanalVendaService.php");
+  Registry::set('ProdutosCanalVendaService',new ProdutosCanalVendaService($apiToken = "our_api_token"));
+  $produto = Registry::get("ProdutosCanalVendaService");
+
   define("SITEURL", $core->site_url);
   define("ADMINURL", $core->site_url);
   define("UPLOADS", BASEPATH."uploads/data/");
@@ -176,3 +182,7 @@
   define("UPLOADSHTML", "./uploads/data/");
   define("UPLOADNOTAS", BASEPATH."/uploads/enotas/");
 ?>
+
+
+
+

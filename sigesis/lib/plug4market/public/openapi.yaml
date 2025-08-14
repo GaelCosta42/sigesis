@@ -1,0 +1,190 @@
+openapi: 3.0.0
+info:
+  title: Lumber API
+  version: 1.0.0
+  description: API de usuários
+
+servers:
+  - url: http://localhost:8000
+
+paths:
+  /users:
+    get:
+      summary: Lista todos os usuários
+      tags:
+        - Usuários
+      responses:
+        '200':
+          description: Lista de usuários
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    idusuario:
+                      type: integer
+                    deslogin:
+                      type: string
+                    dessenha:
+                      type: string
+                    dtcadastro:
+                      type: string
+                      format: date-time
+    post:
+      summary: Cria um novo usuário
+      tags:
+        - Usuários
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - deslogin
+                - dessenha
+              properties:
+                deslogin:
+                  type: string
+                dessenha:
+                  type: string
+      responses:
+        '200':
+          description: Usuário criado com sucesso
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  idusuario:
+                    type: integer
+                  deslogin:
+                    type: string
+                  dessenha:
+                    type: string
+                  dtcadastro:
+                    type: string
+                    format: date-time
+  /users/{id}:
+    get:
+      summary: Retorna um usuário pelo ID
+      tags:
+        - Usuários
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: integer
+          required: true
+          description: ID do usuário
+      responses:
+        '200':
+          description: Usuário encontrado
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  nome:
+                    type: string
+    put:
+      summary: Atualiza um usuário pelo ID
+      tags:
+        - Usuários
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - login
+                - senha
+              properties:
+                login:
+                  type: string
+                senha:
+                  type: string
+      responses:
+        '200':
+          description: Usuário atualizado com sucesso
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  idusuario:
+                    type: integer
+                  deslogin:
+                    type: string
+                  dessenha:
+                    type: string
+                  dtcadastro:
+                    type: string
+                    format: date-time
+    delete:
+      summary: Exclui um usuário pelo ID
+      tags:
+        - Usuários
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Usuário excluído com sucesso
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+  /users/tipo/{id}:
+    get:
+      summary: Retorna um usuário pelo tipo
+      tags:
+        - Usuários
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: integer
+          required: true
+          description: ID tipo do usuário
+      responses:
+        '200':
+          description: Usuário encontrado
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  nome:
+                    type: string
+
+
+
+
+
+
+
+
+
+
+
+

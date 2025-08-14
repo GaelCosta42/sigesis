@@ -1,7 +1,9 @@
 {
     "require": {
         "mpdf/mpdf": "*",
-        "endroid/qr-code": "^5.0"
+        "endroid/qr-code": "^5.0",
+        "guzzlehttp/guzzle": "^7.9",
+        "zircote/swagger-php": "^5.2"
     },
     "autoload": {
         "psr-4": {
